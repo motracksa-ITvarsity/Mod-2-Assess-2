@@ -1,0 +1,219 @@
+body{
+     padding    : 0;
+     margin     : 0;
+     font-family: Helvetica;
+}
+
+/*================HEADER================*/
+
+#header{
+      position: fixed;
+      top     : 0;
+      left    : 0;
+      z-index : 500;
+      width   :100%;
+      height  :80px;
+      background-image  : url('images/white-bg.png');
+      background-repeat: repeat-x;
+}
+
+#header img{
+      display: block;
+      margin : auto;
+      height : 70%;
+      padding-top: 15px; 
+}
+
+/*================TOP-TABS================*/
+
+#tabs-top{
+      position: fixed;
+      top     : 80px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      background-color: black;
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 33%;
+      height  :35px;
+      font-weight : 700;
+      color : white;
+      text-align : center;
+      text-decoration : none;
+      padding-top : 12px;  
+}
+
+/*================MAIN-HOME================*/
+
+#main-home{
+       margin-top: 120px;
+}
+
+/*================BOTTOM-TABS================*/
+
+#tabs-bottom{
+      position : fixed;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: blue;
+}
+
+#tabs-bottom a{
+     float : left;
+     display : block;
+     width : 33%;
+     height : 35px;
+     font-weight : 700;
+     color : white;
+     text-align : center;
+     text-decoration : none;
+     padding-top : 12px;
+}
+
+/*================MAIN================*/
+
+#main {
+    margin-top: 119px;
+    background: url('images/mall-background.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#content {
+    padding-top: 1px;
+    padding-bottom: 50px; 
+}
+
+h2 {
+    font-family: Helvetica, fantasy;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-style: oblique;
+    background-color: white
+}
+
+/*================INFO-BOX================*/
+
+a.info-box {
+    text-decoration : none;
+    background      : rgba(255 ,255, 255, .8);
+    width           : 90%;
+    height          : 90px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 12px;
+    padding         : 10px; 
+}
+
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : #131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 10px;
+      height     40px; 
+}
+/*================INFO-BOX-FULL================*/
+
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      opacity: inherit;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 30px;
+}
+
+
+
+#info-box-full img{
+      width : 100%;
+      position: relative;
+}
+
+
+
+#info-box-full h3{
+      text-align : center;
+}
+
+/*================TABLE================*/
+
+
+table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+/*================FORM================*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin:12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
